@@ -33,6 +33,9 @@
  .secondary-bg{
     background-color: #FFF8F3;
  }
+ .text-center{
+    text-align: center;
+}
 /* nav bar */
 
 nav{
@@ -88,12 +91,17 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
 /* about style */
 .about{
     border-radius: 10px;
     padding: 130px 156px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 .item-description{
     font-weight: bold;
@@ -102,4 +110,58 @@ main{
     display: flex;
     justify-content: space-around;
 
+}
+/* Skii-style */
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+padding: 30px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0,0, 0.06);
+}
+/*  Resume section style*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-subtitle{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600px;
+    margin-bottom: 20px ;
+}
+
+.experience-description{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px;
+}
+.Resume-download-cv{
+    margin-top: 50px;
+}
+.summary-resume{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+/* footer style */
+footer{
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type=text] ,  input[type=email], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
 }
